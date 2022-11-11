@@ -16,20 +16,24 @@
     font-size: large;
    }
    
-    .psa{
+    .psa, ul, li{
         margin: 20px;
         padding: 0 5%;
-        color: #299c38;
+        color: #ffffff;
+    text-align: center;
+text-decoration: none;
+list-style:none;
     }
     .info{
         text-align: center;
     }
+    
     .contact{
         text-align: center;
     }
 
    .wrapper-a{
-    background-image: url(taxes.jpg);  
+    background-color: #645e5e47;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -43,7 +47,7 @@
     color:#ffffff;
     font-size: 20px;
     text-shadow: #a81d1d;
-    
+
 border-style: solid;
     text-align: center;
     background-color: #e12d2dd1;
@@ -294,14 +298,14 @@ font-family:Georgia, 'Times New Roman', Times, serif
         display: none;
     }
 .nav-a{margin: 30px 10px 30px 10px;
-    background-color: #c64545cd;
+    background-color: #ffea00ec;
 }
 .hambuger{display: none;}
 .nav{
     /* background: rgba(208, 203, 203); */
     text-align: center;
     margin: 10px 0px 20px 10px;
-    padding: 15px 20px 10px 20px;
+    
     font-weight: bolder;
 }
 
@@ -430,6 +434,12 @@ text-align: center;}
     
 
 }
-
+.wrapper-a{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr) ;
+    grid-template-rows:repeat(2,minmax(150px,auto)) ;
+    max-width: 2000px;
+}
 
 }
