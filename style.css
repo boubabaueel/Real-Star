@@ -156,7 +156,6 @@ font-size: 25px;
     
     .nav-logo {
          font-size: 1.7rem;
-        /* font-weight: 100px; */
         color:  rgb(98, 235, 0);
         text-decoration: none;
     }
@@ -526,10 +525,11 @@ text-align: center;}
 }
 .wrapper-a{
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2,1fr) ;
-    grid-template-rows:repeat(2,minmax(150px,auto)) ;
-    max-width: 2000px;
+    grid-template-columns: repeat(1,2fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    grid-gap: 10px ;
 }
 #scontact{
     background-color: #d27a7a;
