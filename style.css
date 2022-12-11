@@ -91,6 +91,10 @@ border-style: solid;
 
   
 }
+   .header{background-color: #0d2a2f;
+    margin-bottom: 10px;
+    
+}
 
 .butto{
 font-size: 25px;
@@ -128,7 +132,7 @@ font-size: 25px;
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #000000;
+        background-color: #ffffff;
     }
     .nav-menu {
         display: flex;
@@ -156,7 +160,7 @@ font-size: 25px;
     
     .nav-logo {
          font-size: 1.7rem;
-        color:  rgb(98, 235, 0);
+        color:  rgb(254, 254, 254);
         text-decoration: none;
     }
     .nav-menu {
@@ -341,7 +345,7 @@ font-family:Georgia, 'Times New Roman', Times, serif
         margin: 5px auto;
         -webkit-transition: all 0.3s ease-in-out;
         transition: all 0.3s ease-in-out;
-        background-color: #000000;
+        background-color: #fff4f4;
     }
     .nav-menu {
         display: flex;
@@ -370,7 +374,7 @@ font-family:Georgia, 'Times New Roman', Times, serif
     .nav-logo {
          font-size: 1.7rem;
         /* font-weight: 100px; */
-        color:  rgb(98, 235, 0);
+        color:  rgb(255, 255, 255);
         text-decoration: none;
     }
     .nav-menu {
